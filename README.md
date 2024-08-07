@@ -41,5 +41,5 @@ cd MEV-demo
 
 1. Start the MEV bot:
 ```sh
-npx hardhat run scripts/mev-bot.js
+npm start
 ```
