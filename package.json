@@ -1,0 +1,23 @@
+{
+  "name": "mev-bot",
+  "version": "1.0.0",
+  "description": "Simple MEV bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/mev.ts"
+  },
+  "keywords": [
+    "mev",
+    "bot",
+    "ethereum"
+  ],
+  "author": "kiknaio",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^9.1.2",
+    "ethers": "^6.13.2"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.7"
+  }
+}
